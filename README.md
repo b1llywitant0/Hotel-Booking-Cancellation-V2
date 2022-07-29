@@ -56,13 +56,19 @@ We can observe top countries who visited the hotel from the graph above. From th
 <img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation-V2/blob/main/Pictures/Deposit.png" width="600" height="400">
 </p>
 <p align='justify' style="font-weight: bold;">
-Interestingly, most of the non-refund deposit type were resulting in booking cancellation. That's probably because it consists of deposit with a full cost of stay which is really put the customer at disadvantage or huge risk of losing money. This feature will probably dominate the prediction model. This information can be a suggestion to the hotel management, because other than predicting the booking cancellation, one other thing that interesting to be answered is how to reduce the booking cancellation.
+Interestingly, most of the non-refund deposit type were resulting in booking cancellation. That's probably because it consists of deposit with a full cost of stay which really put the customers at huge disadvantage/risk of losing money. This feature will probably dominate the prediction model. This information can be a suggestion to the hotel management, because other than predicting the booking cancellation, one other thing that interesting to be answered is how to reduce the booking cancellation. To minimalize the booking cancellation rate, the hotel management needs to alter this deposit type into another kind that put both hotel owner and customer advantages in mind.
 </p>
 
-### 
+### Which rooms are the most popular? Which rooms have high cancellation rate?
+<p align="center">
+<img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation-V2/blob/main/Pictures/Room%20type.png" width="600" height="400">
+</p>
+<p align='justify' style="font-weight: bold;">
+Room A is unquestionably the most popular room. Based on the heat map above, room H has the highest cancellation rate, followed by A and G. Room P cancellation didn't represent the group because it only consists of 2 observation.
+</p>
 
 ## Prediction Results
-### Benchmark Model
+### Selection of Benchmark Model
 <p align="center">
 <img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation/blob/main/Data/Hotel%20CV%20Results.png">
 </p>
