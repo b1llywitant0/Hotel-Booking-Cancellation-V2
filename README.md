@@ -35,12 +35,28 @@ Detailed data cleaning and EDA can be read at <a href="https://github.com/b1llyw
 From the graph above, we can see the imbalance of the dataset. Considering the amount of 0 class is higher than class 1, we can use undersampling method such as Random Undersampler or Near Miss to balance the dataset for more unbiased result.
 </p>
 
-### Does waiting duration affecting the booking cancellation?
+### Does waiting duration affects the booking cancellation?
 <p align="center">
 <img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation-V2/blob/main/Pictures/Days%20in%20waiting%20list.png" width="500" height="200">
 </p>
 <p align='justify' style="font-weight: bold;">
 Using hypothesis testing procedure (Mann-Whitney U), there was a signifant difference in median of days_in_waiting_list between 0 and 1 class, where class 0 (check-in) has longer duration of waiting. Thus, longer waiting duration didn't affect the booking cancellation. However, from this information, it is a precaution toward hotel owner to be able to give the best impression to those who waits longer. If failed, then it can easily turn into bad reviews for the hotel.
+</p>
+
+### Which countries were planning to visit the hotel? Which countries has the highest cancellation rate?
+<p align="center">
+<img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation-V2/blob/main/Pictures/Country.png" width="800" height="700">
+</p>
+<p align='justify' style="font-weight: bold;">
+We can observe top countries who visited the hotel from the graph above. From the heatmap, country with the highest cancellation rate is Portugal. Irony, isn't it? Well, logically, since Portugal is the nearest to the hotel, they can cancel and booking for another time. Maybe we can make a new feature based on Region of the country that will indirectly indicates the distance to the hotel.
+</p>
+
+### Does deposit type affects the booking cancellation?
+<p align="center">
+<img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation-V2/blob/main/Pictures/Deposit.png" width="600" height="400">
+</p>
+<p align='justify' style="font-weight: bold;">
+Interestingly, most of the non-refund deposit type were resulting in booking cancellation. That's probably because it consists of deposit with a full cost of stay which is really put the customer at disadvantage or huge risk of losing money. This feature will probably dominate the prediction model. This information can be a suggestion to the hotel management, because other than predicting the booking cancellation, one other thing that interesting to be answered is how to reduce the booking cancellation.
 </p>
 
 ### 
