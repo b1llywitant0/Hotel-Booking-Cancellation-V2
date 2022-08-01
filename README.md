@@ -1,6 +1,6 @@
 # Hotel-Booking-Cancellation
 
-This notebook serves as an improvement of the training project of hotel booking cancellation prediction. This model use more data and features in the dataset, with refined background and more explanation at each notebook's section.
+This notebook serves as an improvement of the training project of hotel booking cancellation prediction. This model use more data and features from the dataset, with refined background and more explanation at each notebook's section.
 
 <p align="center">
 <img src="https://github.com/b1llywitant0/Hotel-Booking-Cancellation/blob/main/Data/Hotel%20Header.jpg">
